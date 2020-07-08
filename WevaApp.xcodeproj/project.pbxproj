@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36926F4A5D4908F46CCA8E3E /* Pods_WevaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67BA9F0D5F8FF81357132C9 /* Pods_WevaApp.framework */; };
 		B282842323AE7CF9004196CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282842223AE7CF9004196CA /* AppDelegate.swift */; };
 		B282842523AE7CF9004196CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282842423AE7CF9004196CA /* SceneDelegate.swift */; };
-		B282842723AE7CF9004196CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282842623AE7CF9004196CA /* ViewController.swift */; };
+		B282842723AE7CF9004196CA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282842623AE7CF9004196CA /* WelcomeViewController.swift */; };
 		B282842A23AE7CF9004196CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B282842823AE7CF9004196CA /* Main.storyboard */; };
 		B282842C23AE7CFA004196CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B282842B23AE7CFA004196CA /* Assets.xcassets */; };
 		B282842F23AE7CFA004196CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B282842D23AE7CFA004196CA /* LaunchScreen.storyboard */; };
+		B282843923AE7DEC004196CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282843823AE7DEC004196CA /* SignUpViewController.swift */; };
+		B282843B23AE7DF9004196CA /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282843A23AE7DF9004196CA /* LogInViewController.swift */; };
+		B282843D23AE7E17004196CA /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282843C23AE7E17004196CA /* WeatherViewController.swift */; };
+		B2C8E64C23AE9AD60073205E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2C8E64B23AE9AD50073205E /* GoogleService-Info.plist */; };
+		B2C8E64F23AEAFAF0073205E /* WeatherBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8E64E23AEAFAF0073205E /* WeatherBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		348DF938C0F36FDE6DF979D0 /* Pods-WevaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WevaApp.debug.xcconfig"; path = "Target Support Files/Pods-WevaApp/Pods-WevaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		53B6CF2EF54521BA93BC4393 /* Pods-WevaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WevaApp.release.xcconfig"; path = "Target Support Files/Pods-WevaApp/Pods-WevaApp.release.xcconfig"; sourceTree = "<group>"; };
 		B282841F23AE7CF9004196CA /* WevaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WevaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B282842223AE7CF9004196CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B282842423AE7CF9004196CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B282842623AE7CF9004196CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B282842623AE7CF9004196CA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B282842923AE7CF9004196CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B282842B23AE7CFA004196CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B282842E23AE7CFA004196CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B282843023AE7CFA004196CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B282843823AE7DEC004196CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B282843A23AE7DF9004196CA /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		B282843C23AE7E17004196CA /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		B2C8E64B23AE9AD50073205E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2C8E64E23AEAFAF0073205E /* WeatherBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBrain.swift; sourceTree = "<group>"; };
+		B67BA9F0D5F8FF81357132C9 /* Pods_WevaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WevaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36926F4A5D4908F46CCA8E3E /* Pods_WevaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCC36AF782CC8BEDE60736F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				348DF938C0F36FDE6DF979D0 /* Pods-WevaApp.debug.xcconfig */,
+				53B6CF2EF54521BA93BC4393 /* Pods-WevaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		931AE590CDE6BBAB71C08E1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B67BA9F0D5F8FF81357132C9 /* Pods_WevaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B282841623AE7CF9004196CA = {
 			isa = PBXGroup;
 			children = (
 				B282842123AE7CF9004196CA /* WevaApp */,
 				B282842023AE7CF9004196CA /* Products */,
+				0CCC36AF782CC8BEDE60736F /* Pods */,
+				931AE590CDE6BBAB71C08E1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +92,42 @@
 			children = (
 				B282842223AE7CF9004196CA /* AppDelegate.swift */,
 				B282842423AE7CF9004196CA /* SceneDelegate.swift */,
-				B282842623AE7CF9004196CA /* ViewController.swift */,
-				B282842823AE7CF9004196CA /* Main.storyboard */,
+				B2C8E64D23AEAF8B0073205E /* Model */,
+				B282843623AE7DBC004196CA /* View */,
+				B282843723AE7DCE004196CA /* Controller */,
 				B282842B23AE7CFA004196CA /* Assets.xcassets */,
 				B282842D23AE7CFA004196CA /* LaunchScreen.storyboard */,
 				B282843023AE7CFA004196CA /* Info.plist */,
+				B2C8E64B23AE9AD50073205E /* GoogleService-Info.plist */,
 			);
 			path = WevaApp;
+			sourceTree = "<group>";
+		};
+		B282843623AE7DBC004196CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B282842823AE7CF9004196CA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B282843723AE7DCE004196CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B282842623AE7CF9004196CA /* WelcomeViewController.swift */,
+				B282843823AE7DEC004196CA /* SignUpViewController.swift */,
+				B282843A23AE7DF9004196CA /* LogInViewController.swift */,
+				B282843C23AE7E17004196CA /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2C8E64D23AEAF8B0073205E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2C8E64E23AEAFAF0073205E /* WeatherBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B282843323AE7CFA004196CA /* Build configuration list for PBXNativeTarget "WevaApp" */;
 			buildPhases = (
+				6E50C871B25AC8F3C9150314 /* [CP] Check Pods Manifest.lock */,
 				B282841B23AE7CF9004196CA /* Sources */,
 				B282841C23AE7CF9004196CA /* Frameworks */,
 				B282841D23AE7CF9004196CA /* Resources */,
+				D38B4CAD8B1B390C94BC057F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B282842F23AE7CFA004196CA /* LaunchScreen.storyboard in Resources */,
+				B2C8E64C23AE9AD60073205E /* GoogleService-Info.plist in Resources */,
 				B282842C23AE7CFA004196CA /* Assets.xcassets in Resources */,
 				B282842A23AE7CF9004196CA /* Main.storyboard in Resources */,
 			);
@@ -133,13 +199,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E50C871B25AC8F3C9150314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WevaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38B4CAD8B1B390C94BC057F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WevaApp/Pods-WevaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WevaApp/Pods-WevaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WevaApp/Pods-WevaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B282841B23AE7CF9004196CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B282842723AE7CF9004196CA /* ViewController.swift in Sources */,
+				B282842723AE7CF9004196CA /* WelcomeViewController.swift in Sources */,
+				B282843D23AE7E17004196CA /* WeatherViewController.swift in Sources */,
 				B282842323AE7CF9004196CA /* AppDelegate.swift in Sources */,
+				B282843923AE7DEC004196CA /* SignUpViewController.swift in Sources */,
+				B282843B23AE7DF9004196CA /* LogInViewController.swift in Sources */,
+				B2C8E64F23AEAFAF0073205E /* WeatherBrain.swift in Sources */,
 				B282842523AE7CF9004196CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +394,7 @@
 		};
 		B282843423AE7CFA004196CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348DF938C0F36FDE6DF979D0 /* Pods-WevaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,7 +403,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kordifier.WevaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kordifier.Flash-Chat-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,6 +412,7 @@
 		};
 		B282843523AE7CFA004196CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B6CF2EF54521BA93BC4393 /* Pods-WevaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,7 +421,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kordifier.WevaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kordifier.Flash-Chat-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
